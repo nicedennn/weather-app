@@ -1,0 +1,127 @@
+body {
+  background-color: black;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding:32px;
+}
+
+h2 {
+  color: lightgray;
+}
+
+.search-bar {
+  display: block;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+  font-size: 1.25em;
+  color: gray;
+  transition: border 300ms ease-in;
+}
+
+footer {
+  font-size: 0.9em;
+  color: gray;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 95%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+  text-decoration: underline;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+.search-bar:hover {
+  border-bottom: 1px solid gray;
+}
+
+
+.location-box {
+  color: lightgray;
+  line-height: 32px;
+  margin-top: 32px;
+}
+
+.location {
+  color: white;
+  font-weight: bold;
+  font-size: 1.35em;
+}
+
+.weather-box {
+  color: lightgray;
+  line-height: 32px;
+  margin-top: 16px;
+}
+
+.temp {
+  display: inline-block;
+}
+
+.weather {
+  display: inline-block;
+}
+
+.error {
+  color: orange;
+  opacity: 0.5;
+  margin-top: 8px;
+  font-size: 1.25em;
+  font-weight: bolder;
+  animation: shake-horizontal 1s ease-in infinite both;
+}
+
+.app-warm {
+  background-color: orangered;
+}
+
+@keyframes shake-horizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  80% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  90% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
