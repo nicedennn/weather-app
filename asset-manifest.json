@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nicedennn/weather-app/static/css/main.da8acc81.chunk.css",
+    "main.js": "/nicedennn/weather-app/static/js/main.4bfb54b4.chunk.js",
+    "main.js.map": "/nicedennn/weather-app/static/js/main.4bfb54b4.chunk.js.map",
+    "runtime-main.js": "/nicedennn/weather-app/static/js/runtime-main.ecda6f45.js",
+    "runtime-main.js.map": "/nicedennn/weather-app/static/js/runtime-main.ecda6f45.js.map",
+    "static/js/2.941fb020.chunk.js": "/nicedennn/weather-app/static/js/2.941fb020.chunk.js",
+    "static/js/2.941fb020.chunk.js.map": "/nicedennn/weather-app/static/js/2.941fb020.chunk.js.map",
+    "index.html": "/nicedennn/weather-app/index.html",
+    "precache-manifest.ab0fabef316a38cff2cf23d679dc78b7.js": "/nicedennn/weather-app/precache-manifest.ab0fabef316a38cff2cf23d679dc78b7.js",
+    "service-worker.js": "/nicedennn/weather-app/service-worker.js",
+    "static/css/main.da8acc81.chunk.css.map": "/nicedennn/weather-app/static/css/main.da8acc81.chunk.css.map",
+    "static/js/2.941fb020.chunk.js.LICENSE.txt": "/nicedennn/weather-app/static/js/2.941fb020.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ecda6f45.js",
+    "static/js/2.941fb020.chunk.js",
+    "static/css/main.da8acc81.chunk.css",
+    "static/js/main.4bfb54b4.chunk.js"
+  ]
+}
